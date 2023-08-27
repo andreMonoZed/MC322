@@ -1,4 +1,4 @@
-package pessoas;
+
 
 // Enum para representar os diferentes níveis de acesso
 enum NivelAcesso {
