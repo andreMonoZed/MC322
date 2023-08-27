@@ -23,12 +23,24 @@ class Funcionario {
         return nome;
     }
 
+    public void setNome(String nome){
+        this.nome = nome;
+    }
+
     public NivelAcesso getNivelAcesso() {
         return nivelAcesso;
     }
 
+    public void setNivelAcesso(NivelAcesso nivelAcesso){
+        this.nivelAcesso = nivelAcesso;
+    }
+
     public double getSalario() {
         return salario;
+    }
+
+    public void setSalario(double salario){
+        this.salario = salario;
     }
 
     // Métodos para executar ações específicas de acordo com o nível de acesso
